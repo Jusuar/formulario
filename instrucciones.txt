@@ -1,0 +1,26 @@
+Actividad Elaborar un formulario en HTML utilizando estilos CSS (no frameworks) para la captura
+de todos los datos de un alumno
+
+Personales:
+ Apellidos
+ Nombre
+ Fecha de nacimiento
+ Sexo
+ Curp
+ Estado civil
+De contacto:
+ País
+ Estado
+ Municipio
+ Localidad
+ Calle
+ No (Int y Ext)
+ Teléfono
+ E-mail
+
+Académicos:
+ Matrícula
+ Carrera
+ Especialidad
+ Plan de estudios
+ Tutor
