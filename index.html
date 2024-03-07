@@ -2,6 +2,16 @@
 <html lang="es">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WBNGYKGBK2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WBNGYKGBK2');
+    </script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -323,14 +333,14 @@
             <input type="text" name="matricula" id="">
 
             <label for="carrera">Carrera</label><br>
-                <select id="carrera" name="carrera">
-                    <option value="">Seleccione...</option>
-                    <option value="IQ">Ingeniería Química</option>
-                    <option value="II">Ingeniería Industrial</option>
-                    <option value="IGE">Ingeniería en Gestión Empresarial</option>
-                    <option value="ISC">Ingeniería en Sistemas Computacionales</option>
-                    <option value="IIAS">Ingeniería en Innovación Agrícola Sustentable</option>
-                </select>
+            <select id="carrera" name="carrera">
+                <option value="">Seleccione...</option>
+                <option value="IQ">Ingeniería Química</option>
+                <option value="II">Ingeniería Industrial</option>
+                <option value="IGE">Ingeniería en Gestión Empresarial</option>
+                <option value="ISC">Ingeniería en Sistemas Computacionales</option>
+                <option value="IIAS">Ingeniería en Innovación Agrícola Sustentable</option>
+            </select>
 
             <label for="especialidad">Especialidad</label><br>
             <input type="text" name="especialidad" id="">
@@ -348,7 +358,7 @@
         </form>
 
     </div>
-    
+
 </body>
 
 </html>
